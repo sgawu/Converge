@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<title>CONVERGE</title>   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="social_media.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }{
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about.html">About</a>
+  <a href="designs.html">Instructional Design</a>
+  <a href="it.html">Project Managment</a>
+  <a href="#">Research</a>    
+  <a href="contact.html">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#555555; Browse</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="imgs/sophia-1.png" class="img-responsive img-circle margin" style="display:inline" alt="Sophia" width="100" height="100">
+  <h3>Sophia Gagakuma</h3>
+<h4>Project Manager and Instructional Designer</h4>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+    <div class="row">
+  <p>I currently work as Business Analayts with a foucs in project management for the Occupational and Enviromental Health and Safety Department of the University of Utah. My background is in database archetecture, design and implementation. At the moment I am not sure I can define what I am. I guess I am in the process of discovering that. Come on the journey with me.</p></div>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Projects and Throughts</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+        <img src="imgs/farzad-nazifi-71686-unsplash.jpg" class="img-responsive margin" style="width: auto"  alt="Technology">
+        <h2><a href="it.html">Project Management</a></h2>
+      <div class="row"><p style="small">Technology has always been a huge part of my life. I am an ITIL-Foundation Certified and working on Passing the PMP</p></div>
+    </div>
+    <div class="col-sm-4"> 
+        <img src="imgs/anton-sukhinov-428279-unsplash.jpg" class="img-responsive margin" style="width: auto" alt="Education">
+        <h2><a href="designs.html">Instructional Design</a></h2>
+      <p style="small"> I want to give back to my community. I have a goal to help change and improve the cirriculum in my home county. As such I am working on really delving deeper into instructional design</p>
+      
+    </div>
+    <div class="col-sm-4"> 
+    <img src="imgs/matt-ragland-493335-unsplash.jpg" class="img-responsive margin" style="width: auto"  alt="Thoughts">
+        <h2><a href="research.html">Research</a></h2>
+      <p style="small">Part of my journey in doing two masters degree is deciding on research topics for a possible PhD.</p>
+   
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+ <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<footer class="container-fluid bg-4 text-center">
+   <p style="color: black"><a href="mailto:sophia.gagakuma@gmail.com">sopia.gagakuma@gmail.com</a></p>
+    <a href="https://www.facebook.com/sophia.gawu"><i class="fab fa-facebook"></i></a>
+      <a href="www.linkedin.com/in/sophiagagakuma"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/sgagakuma/"><i class="fab fa-instagram"></i></a>
+</footer>
+
+     
+</body>
+</html> 
